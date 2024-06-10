@@ -1,0 +1,90 @@
+/**{
+    background-image: url("");
+}*/
+.bg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Ungarisch-Brod-3.jpg/1280px-Ungarisch-Brod-3.jpg");   
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+
+}
+
+.header{
+    padding: 25px;
+    
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    justify-content: end;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.logo{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    width: 20%;
+}
+.src{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    padding: 16px 0px;
+    width: 175px;
+    height: 29px;
+    border: 1px solid rgba(224, 224, 224, 0.1); 
+    border-radius: 8px;
+
+}
+.inside-l{
+    margin-top: 150px;
+
+    
+}
+.inside-l img{
+    width: 100%;
+    
+    
+}
+.inside-l h1,h2{
+   color: aliceblue;
+   text-align: center;
+   
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+@media only screen and (max-width: 937px) {
+    .header{
+        justify-content: center;
+    }
+    .logo{
+        justify-content: center;
+        width: 100%;
+    }
+    .navbar{
+        justify-content: center;
+        flex-shrink: 4;
+        gap: 30px;
+        
+    }
+    .src{
+        width: 90px;
+        
+    }
+}

@@ -1,0 +1,35 @@
+.cont-conteiner{
+display: flex;
+margin: auto;
+max-width: 100%;
+
+}
+.cont-conteiner ul{
+    list-style-type: none;
+}
+.cont-tent{
+    background: linear-gradient( darkorange, red);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cont-tent h3{
+    text-align: center;
+}
+
+.odstavec{
+    text-align: center;
+    padding: 150px;
+}
+@media only screen and (max-width: 600px) {
+   .cont-conteiner{
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+   .odstavec{
+    padding: 50px;
+   }
+}

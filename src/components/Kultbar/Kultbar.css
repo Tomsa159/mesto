@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    
+}
+.container{
+display: flex;
+justify-content: space-evenly;
+
+}
+.content {
+    border: 2px red solid;
+    width: 250px;
+    height: 100%;
+    text-align: center;
+    align-items: baseline;
+ 
+}
+.content img{
+    max-height: 100%;
+    max-width: 100%;
+}
+img{
+    height: 300px;
+    object-fit:cover ;
+}
+.content h3{
+    height: 30%;
+    background-color: #CE241C;
+}
+.content a{
+    color: black;
+}
+@media only screen and (max-width: 998px) {
+    .container{
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 15px;
+    }
+}

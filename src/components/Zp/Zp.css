@@ -1,0 +1,9 @@
+.zp-container{
+margin: 100px;
+display: flex;
+flex-direction: column;
+background-color: #CE241C;
+}
+.zp-contant{
+   font-size: large;
+}

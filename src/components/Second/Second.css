@@ -1,0 +1,56 @@
+.container-second{
+    max-width: 100%;
+    display: flex;
+    
+}
+.text{
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    font-size: 17px;
+}
+.text h1{
+    text-align: start;
+}
+.img{
+    width:50%;
+    text-align: center;
+    display: flex;
+    margin: 15px 0;
+}
+.img img{
+    border-radius: 50px;
+}
+@media only screen and (max-width: 1050px) {
+    .img{
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+@media only screen and (max-width: 950px) {
+    .container-second{
+        flex-direction: column;
+    
+    }
+    .text{
+        width: 80%;
+        position: relative;
+    }
+    img{
+       width: 85%;
+        justify-content: center;
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    .text{
+        font-size: 13px;
+    }
+    img{
+       object-position: left;
+     }
+    
+}
+

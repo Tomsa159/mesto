@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.container-third{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+   
+}
+.contant-third{
+    display: flex;
+    border: 2px red solid;
+    border-radius: 50px;
+    width: 250px;
+    height: 240px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( darkorange, red);
+}
+@media only screen and (max-width: 1400px) {
+    .container-third{
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+}
