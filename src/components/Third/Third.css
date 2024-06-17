@@ -4,19 +4,18 @@ h1{
 .container-third{
     display: flex;
     justify-content: space-evenly;
-    padding: 5px;
+    padding:50px;
    
 }
 .contant-third{
     display: flex;
-    border: 2px red solid;
     border-radius: 50px;
     width: 250px;
     height: 240px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background: linear-gradient( darkorange, red);
+    background: linear-gradient( red,#CE241C);
 }
 @media only screen and (max-width: 1400px) {
     .container-third{
